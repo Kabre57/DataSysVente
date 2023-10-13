@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="irstheme">
+    <title> theo shop </title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navigation navbar navbar-default">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="open-btn">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href=""><img src="assets/images/logo.png" alt></a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                            <button class="close-navbar"><i class="ti-close"></i></button>
+                            <ul class="nav navbar-nav">
+                                <li><a href="">Accuei</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="services">Services</a></li>
+                                        <li><a href="power-energy">Power & energy</a></li>
+                                        <li><a href="mechanical-works">Mechanical Works</a></li>
+                                        <li><a href="petroleum-refinery">Petroleum Refinery</a></li>
+                                        <li><a href="oil-gas-industry">Oil & Gas Industry</a></li>
+                                        <li><a href="logistics-services">Logistics Services</a></li>
+                                        <li><a href="general-insustry">General Insustry</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog">Blog</a> </li>
+                                <li><a href="projects">Projects</a></li>
+                                <li class="menu-item-has-children">
+                                    <a>About</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about">About</a></li>
+                                        <li><a href="team">Team</a></li>
+                                        <li><a href="testimonials">Testimonials</a></li>
+                                        <li><a href="faq">FAQ</a></li>
+                                        <li><a href="projects">Projects</a></li>
+                                        <li><a href="portfolio">portfolio</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </div><!-- end of nav-collapse -->
+            
+                        <div class="search-contact">
+                            <div class="header-search-form-wrapper">
+                                <button class="search-toggle-btn"><i class="ti-search"></i></button>
+                                <div class="header-search-form">
+                                    <form>
+                                        <div>
+                                            <input type="text" class="form-control" placeholder="Search here...">
+                                            <button type="submit"><i class="ti-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="contact-btn">
+                                <a href="#" class="theme-btn-s2">Get a quote</a>
+                            </div>
+                        </div>
+                    </div><!-- end of container -->
+                </nav>
+            </div>
+        </div>
+
+
+        {% block content %}  {% endblock %} 
+    </div>
+</body>
+</html>
